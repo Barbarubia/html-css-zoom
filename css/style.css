@@ -42,6 +42,23 @@ header {
     align-items: flex-start;
 }
 
+/* MAIN */
+
+.container {
+    margin: 7rem auto;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.participant {
+    background-color: grey;
+    width: 150px;
+    height: 80px;
+}
+
 /* FOOTER */
 footer {
     background-color: #222222;
