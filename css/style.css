@@ -116,3 +116,7 @@ footer i {
 footer .icon-green {
     color: #4bc800;
 }
+
+footer .fa-angle-up {
+    font-size: 1rem;
+}
