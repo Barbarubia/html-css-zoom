@@ -47,7 +47,7 @@ main {
     overflow-y: auto;
 }
 
-.container {
+main .container {
     margin: 6rem auto;
     width: 90%;
     height: 70vh;
@@ -57,7 +57,7 @@ main {
     gap: 1rem .5rem;
 }
 
-.participant-screen {
+main .participant-screen {
     background: url(https://picsum.photos/id/1022/150/80);
     background-size: cover;
     width: 150px;
@@ -66,7 +66,7 @@ main {
     align-items: flex-end;
 }
 
-.participant-name {
+main .participant-name {
     background-color: rgba(0,0,0,.5);
     padding: .3rem .5rem;
     font-size: .8rem;
