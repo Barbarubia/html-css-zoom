@@ -12,7 +12,7 @@ html {
 }
 
 body {
-    background-color: green;
+    background-color: black;
 }
 
 /* BOTTONI */
@@ -43,20 +43,33 @@ header {
 }
 
 /* MAIN */
+main {
+    overflow-y: auto;
+}
 
 .container {
-    margin: 7rem auto;
+    margin: 6rem auto;
     width: 90%;
     height: 70vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: center;
+    gap: 1rem .5rem;
 }
 
-.participant {
-    background-color: grey;
+.participant-screen {
+    background: url(https://picsum.photos/id/1022/150/80);
+    background-size: cover;
     width: 150px;
     height: 80px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.participant-name {
+    background-color: rgba(0,0,0,.5);
+    padding: .3rem .5rem;
+    font-size: .8rem;
 }
 
 /* FOOTER */
