@@ -25,6 +25,11 @@ body {
     cursor: pointer;
 }
 
+.button-big {
+    background-color: #4a4a4a;
+    color: red;
+}
+
 /* HEADER */
 header {
     background-color: black;
@@ -46,6 +51,7 @@ footer {
     height: 7rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 footer ul {
@@ -64,7 +70,7 @@ footer li {
     cursor: pointer;
 }
 
-footer .icon-big {
+footer i {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
